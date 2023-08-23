@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "V+n3n5J2uzLipEFegNqxXvS4jcmZZDC6yLjne4mT9sg2eC9hEHanmAvR2UqFtV9R6yHz5ZgTpk0EUe81QZ5wIA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dhyog\\OneDrive\\Documentos\\Projetos Pessais\\api-quiz\\Quiz.Api\\Quiz.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dhyog\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\dhyog\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\dhyog\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\dhyog\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\dhyog\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\dhyog\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

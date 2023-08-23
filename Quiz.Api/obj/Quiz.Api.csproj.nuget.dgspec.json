@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dhyog\\OneDrive\\Documentos\\Projetos Pessais\\api-quiz\\Quiz.Service\\Quiz.Service.csproj": {}
+    "C:\\Users\\dhyog\\OneDrive\\Documentos\\Projetos Pessais\\api-quiz\\Quiz.Api\\Quiz.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dhyog\\OneDrive\\Documentos\\Projetos Pessais\\api-quiz\\Quiz.Service\\Quiz.Service.csproj": {
+    "C:\\Users\\dhyog\\OneDrive\\Documentos\\Projetos Pessais\\api-quiz\\Quiz.Api\\Quiz.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dhyog\\OneDrive\\Documentos\\Projetos Pessais\\api-quiz\\Quiz.Service\\Quiz.Service.csproj",
-        "projectName": "Quiz.Service",
-        "projectPath": "C:\\Users\\dhyog\\OneDrive\\Documentos\\Projetos Pessais\\api-quiz\\Quiz.Service\\Quiz.Service.csproj",
+        "projectUniqueName": "C:\\Users\\dhyog\\OneDrive\\Documentos\\Projetos Pessais\\api-quiz\\Quiz.Api\\Quiz.Api.csproj",
+        "projectName": "Quiz.Api",
+        "projectPath": "C:\\Users\\dhyog\\OneDrive\\Documentos\\Projetos Pessais\\api-quiz\\Quiz.Api\\Quiz.Api.csproj",
         "packagesPath": "C:\\Users\\dhyog\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dhyog\\OneDrive\\Documentos\\Projetos Pessais\\api-quiz\\Quiz.Service\\obj\\",
+        "outputPath": "C:\\Users\\dhyog\\OneDrive\\Documentos\\Projetos Pessais\\api-quiz\\Quiz.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,6 +40,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -52,6 +58,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

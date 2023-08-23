@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dhyog\\OneDrive\\Documentos\\Projetos Pessais\\api-quiz\\Quiz.Service\\Quiz.Service.csproj",
-      "projectName": "Quiz.Service",
-      "projectPath": "C:\\Users\\dhyog\\OneDrive\\Documentos\\Projetos Pessais\\api-quiz\\Quiz.Service\\Quiz.Service.csproj",
+      "projectUniqueName": "C:\\Users\\dhyog\\OneDrive\\Documentos\\Projetos Pessais\\api-quiz\\Quiz.Application\\Quiz.Application.csproj",
+      "projectName": "Quiz.Application",
+      "projectPath": "C:\\Users\\dhyog\\OneDrive\\Documentos\\Projetos Pessais\\api-quiz\\Quiz.Application\\Quiz.Application.csproj",
       "packagesPath": "C:\\Users\\dhyog\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dhyog\\OneDrive\\Documentos\\Projetos Pessais\\api-quiz\\Quiz.Service\\obj\\",
+      "outputPath": "C:\\Users\\dhyog\\OneDrive\\Documentos\\Projetos Pessais\\api-quiz\\Quiz.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

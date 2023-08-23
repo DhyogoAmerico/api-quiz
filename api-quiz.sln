@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiz.Domain", "Quiz.Domain\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiz.Infra", "Quiz.Infra\Quiz.Infra.csproj", "{90581BE1-0304-46D0-AAB5-EAD95E8659A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiz.Service", "Quiz.Service\Quiz.Service.csproj", "{EDAC4528-CC52-4D12-90B9-9D1C81B0ECAF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiz.Application", "Quiz.Application\Quiz.Application.csproj", "{EDAC4528-CC52-4D12-90B9-9D1C81B0ECAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
