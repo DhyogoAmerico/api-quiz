@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiz.Domain", "Quiz.Domain\Quiz.Domain.csproj", "{8770A812-58CC-41B3-A0CC-1328662EB549}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiz.Infra", "Quiz.Infra\Quiz.Infra.csproj", "{90581BE1-0304-46D0-AAB5-EAD95E8659A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiz.Service", "Quiz.Service\Quiz.Service.csproj", "{EDAC4528-CC52-4D12-90B9-9D1C81B0ECAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8770A812-58CC-41B3-A0CC-1328662EB549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8770A812-58CC-41B3-A0CC-1328662EB549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8770A812-58CC-41B3-A0CC-1328662EB549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8770A812-58CC-41B3-A0CC-1328662EB549}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90581BE1-0304-46D0-AAB5-EAD95E8659A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90581BE1-0304-46D0-AAB5-EAD95E8659A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90581BE1-0304-46D0-AAB5-EAD95E8659A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90581BE1-0304-46D0-AAB5-EAD95E8659A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDAC4528-CC52-4D12-90B9-9D1C81B0ECAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDAC4528-CC52-4D12-90B9-9D1C81B0ECAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDAC4528-CC52-4D12-90B9-9D1C81B0ECAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDAC4528-CC52-4D12-90B9-9D1C81B0ECAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
