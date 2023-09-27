@@ -12,5 +12,7 @@ namespace Quiz.Domain.Entity
         public string? Email { get; set; }
         public string? Password { get; set; }
         public string? Phone { get; set; }
+        public DateTime Date_birth { get; set; }
+        public string? Token { get; set; }
     }
 }

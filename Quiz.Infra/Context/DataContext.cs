@@ -7,7 +7,7 @@ namespace Quiz.Infra.Context
 {
     public class DataContext
     {
-        private readonly NpgsqlConnection _connection;
+        public readonly NpgsqlConnection _connection;
         private readonly NpgsqlTransaction _transaction;
         private readonly Configuration _configuration;
         public DataContext(Configuration configuration)
