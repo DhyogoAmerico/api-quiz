@@ -82,7 +82,7 @@ namespace Quiz.Infra.Repository
                 _context.DisposeAsync();
             }
         }
-        
+
         public async Task<Questions> Insert(Questions questions)
         {
             try
