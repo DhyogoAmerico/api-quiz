@@ -1,4 +1,7 @@
 using Quiz.Domain.DTO;
+using Quiz.Domain.Handler;
+using Quiz.Domain.Repository;
+using Quiz.Infra.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +10,12 @@ builder.Services.AddConfiguration<Configuration>(builder.Configuration, "Setting
 builder.Configuration.SetBasePath(builder.Environment.ContentRootPath)
     .AddJsonFile("appsettings.json", true, true)
     .AddEnvironmentVariables();
+
+//handler
+builder.Services.AddTransient<UserHandler>();
+
+//repository
+builder.Services.AddTransient<IUserRepository, UserRepository>();
 
 builder.Services.AddControllers();
 

@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Quiz.Domain\Quiz.Domain.csproj" />
+    <ProjectReference Include="..\Quiz.Infra\Quiz.Infra.csproj" />
   </ItemGroup>
 
 </Project>

@@ -5,15 +5,15 @@ using System.Threading.Tasks;
 
 namespace Quiz.Domain.ContractsCommand
 {
-    public class CommandResult<T>
+    public class CommandResult
     {
         public bool success { get; set; }
-        public T data { get; set; }
-        public static CommandResult Send(bool success, T data)
+        public dynamic data { get; set; }
+        public static CommandResult Send(bool success, dynamic data)
         {
             return new() {
-                success,
-                data
+                success = success,
+                data = data
             };
         }
     }
