@@ -1,6 +1,7 @@
 using Quiz.Domain.DTO;
 using Quiz.Domain.Handler;
 using Quiz.Domain.Repository;
+using Quiz.Infra.Context;
 using Quiz.Infra.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,6 +17,8 @@ builder.Services.AddTransient<UserHandler>();
 
 //repository
 builder.Services.AddTransient<IUserRepository, UserRepository>();
+
+builder.Services.AddTransient<DataContext>();
 
 builder.Services.AddControllers();
 
