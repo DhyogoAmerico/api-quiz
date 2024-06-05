@@ -69,7 +69,7 @@ namespace Quiz.Infra.Repository
                 var parms = new {
                     name = user.Name,
                     email = user.Email,
-                    password = user.Password,
+                    password = (string)user.Password!,
                     phone = user.Phone,
                     date_birth = user.Date_birth,
                     token = user.Token

@@ -7,13 +7,13 @@ namespace Quiz.Domain.ContractsCommand
 {
     public class CommandResult
     {
-        public bool success { get; set; }
-        public dynamic data { get; set; }
-        public static CommandResult Send(bool success, dynamic data)
+        public bool Success { get; set; }
+        public dynamic? Data { get; set; }
+        public static CommandResult Send(bool success, dynamic? data)
         {
             return new() {
-                success = success,
-                data = data
+                Success = success,
+                Data = data
             };
         }
     }
